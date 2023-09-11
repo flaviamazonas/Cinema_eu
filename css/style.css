@@ -53,11 +53,14 @@ a{
 .header_icones {
     display: flex;
     text-align:left;
-    font-size: 15px;  
+    font-size: 15px;
+    width: 70px;
+    height: 50px;
 }
 .header {
     width: 26;
-    height: 26px;  
+    height: 26px;
+    margin-top: -25px;
 }
 .footer_icones {
     display: flex;
@@ -66,5 +69,5 @@ a{
 }
 .localizacao {
     width: 26px;
-    height: 26px;  
+    height: 26px;
 }
