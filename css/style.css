@@ -1,0 +1,70 @@
+body{
+    background-color: #736B6B;
+    color: #FFFFFF;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #bf2f25;
+    color: #F6F6F6;
+}
+p{
+    color: #ffffff;
+}
+* {
+    margin: 2px;
+    padding: 18px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section{
+    display: flex;
+}
+.banner_observacao{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23.8px;
+}
+.banner_titulo{
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;   
+    text-align: center;
+}
+a{
+    background-color: #ec3d3d;
+    width: 239px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 16px, 0;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.ingressos {
+    width: 30px;
+    height: 30px;
+}
+.cinema {
+    width: 260px;
+    height: 180px;
+}
+.header_icones {
+    display: flex;
+    text-align:left;
+    font-size: 15px;  
+}
+.header {
+    width: 26;
+    height: 26px;  
+}
+.footer_icones {
+    display: flex;
+    text-align:center;
+    font-size: 16px;
+}
+.localizacao {
+    width: 26px;
+    height: 26px;  
+}
