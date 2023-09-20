@@ -1,10 +1,8 @@
 body{
-    background-color: #736B6B;
-    color: #FFFFFF;
     height: 100vh;
     box-sizing: border-box;
     background-color: #bf2f25;
-    color: #F6F6F6;
+    color: white;
 }
 p{
     color: #ffffff;
@@ -42,23 +40,17 @@ a{
     text-decoration: none;
     color: #FFFFFF;
 }
-.ingressos {
-    width: 30px;
-    height: 30px;
-}
 .cinema {
     width: 260px;
     height: 180px;
 }
 .header_icones {
     display: flex;
-    text-align:left;
-    font-size: 15px;
-    width: 70px;
+    width: 0px;
     height: 50px;
 }
 .header {
-    width: 26;
+    width: 26px;
     height: 26px;
     margin-top: -25px;
 }
@@ -68,6 +60,57 @@ a{
     font-size: 16px;
 }
 .localizacao {
-    width: 26px;
-    height: 26px;
+    width: 28px;
+    height: 28px;
+}
+p1{
+    color: #3b0303;
+}
+.banner_contatos {
+    display: flex;
+    justify-content: space-between;
+    font-size: 23.8px;
+}
+.contatos {
+    width: 60px;
+    height: 60px;
+}
+.a1 {
+    background-color: #bf2f25;
+}
+.redes {
+    text-align:center;
+}
+.cc {
+    text-align:center;
+    color: #3b0303;
+}
+textarea {
+    line-height: 20px;
+    padding: 20px;
+    height: 40px;
+    background-color: #ec3d3d;
+    border: 1px solid #3b0303;
+    border-radius: 10px;
+}
+.vc {
+    background-color: #ec3d3d;
+    border: 0.5px solid #3b0303;
+    border-radius: 15px;
+}
+.vci {
+    background-color: #ec3d3d;
+    border: 2.2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+.radio-label {
+    display: flex;
+    align-items: center;
+    padding: 2.5px;
+    color: #3b0303;
+    background-color:#ec3d3d;
+    border-radius: 15px;
+    border: 0.1px solid#3b0303;
+    width: 190px;
 }
