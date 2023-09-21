@@ -114,3 +114,8 @@ textarea {
     border: 0.1px solid#3b0303;
     width: 190px;
 }
+.img-dicas {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
