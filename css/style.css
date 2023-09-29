@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color:burlywood;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
     color: #8B0000;
 }
 p{
@@ -30,7 +30,7 @@ section{
     text-align: center;
 }
 a{
-    background-color:rgb(224, 154, 84);
+    background-color:#fda085;
     width: 239px;
     text-align: center;
     border-radius: 30px;
@@ -55,16 +55,22 @@ a{
     margin-top: -25px;
 }
 .footer_icones {
-    display: flex;
-    text-align:center;
-    font-size: 16px;
+    display: block;
+    font-size: 16.8px;
+    background-color: #ff8c7f;
+    border-radius: 50% 50% 0 0;
+    padding: 30px;
+    position: relative;
+    top: 130px;
+    width: 50%;
+    text-align: center;
 }
 .localizacao {
     width: 28px;
     height: 28px;
 }
 p1{
-    color: #3b0303;
+    color: #8B0000;
 }
 .banner_contatos {
     display: flex;
@@ -76,7 +82,7 @@ p1{
     height: 60px;
 }
 .a1 {
-    background-color:rgb(224, 154, 84);
+    background-color:#fda085;
     width: 100px;
 }
 .redes {
@@ -90,17 +96,17 @@ textarea {
     line-height: 20px;
     padding: 20px;
     height: 40px;
-    background-color:rgb(224, 154, 84);
+    background-color:#fda085;
     border: 1px;
     border-radius: 10px;
 }
 .vc {
-    background-color:rgb(224, 154, 84);
+    background-color:#fda085;
     border: 0.5px;
     border-radius: 15px;
 }
 .vci {
-    background-color:rgb(224, 154, 84);
+    background-color:#fda085;
     border: 1.5px solid #3b0303;
     border-radius: 15px;
     padding: 5px;
@@ -110,7 +116,7 @@ textarea {
     align-items: center;
     padding: 2.5px;
     color: #3b0303;
-    background-color:rgb(224, 154, 84);
+    background-color:#fda085;
     border-radius: 15px;
     width: 190px;
 }
@@ -120,19 +126,48 @@ textarea {
     width: 40%;
 }
 .button-dicas {
-    background-color:rgb(224, 154, 84);
     border: none;
     border-radius: 10px;
+    font-size:15px;
+    color: #8B0000;
+    display:contents;
+    line-height: 0px;
 }
 .figurinhas {
-    width: 60px;
-    height: 70px;
+    width: 55px;
+    height: 75px;
     display: flex;
-    padding: 12px;
+    padding: 8px;
 }
 .enfeite {
     float:right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 .enfeite2 {
     float:left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.button-links {
+    border: none;
+    font-size:13.5px;
+    color: #8B0000;
+    display:contents;
+    line-height: 0px;
+}
+.a2 {
+    background-color:#fcb69f;
+}
+.a3 {
+    background-color:#fcb69f;
+    width: 100px;
+}
+.a4 {
+    background-color:#ff8c7f;
+    width: 100px;
 }
