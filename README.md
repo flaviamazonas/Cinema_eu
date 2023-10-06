@@ -1,5 +1,5 @@
 # Cinema&Eu
 
-### No link abaixo você pode visualizar a página inicial e a navegação entre as telas:
+### In the link bellow you can view the project:
 
-[Clique aqui!](https://drive.google.com/file/d/18Kn7UYaR540HWgvHRR-Q3f1CQjmlX2ZH/view?usp=drivesdk)
+[Click here!](https://drive.google.com/file/d/18Kn7UYaR540HWgvHRR-Q3f1CQjmlX2ZH/view?usp=drivesdk)
