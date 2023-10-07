@@ -48,6 +48,7 @@ a{
     display: flex;
     width: 0px;
     height: 50px;
+    margin-top: -40px;
 }
 .header {
     width: 26px;
@@ -64,6 +65,7 @@ a{
     top: 130px;
     width: 50%;
     text-align: center;
+    margin-top: 55px;
 }
 .localizacao {
     width: 28px;
