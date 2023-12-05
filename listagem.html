@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cinema&Eu</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="navbar" id="myNavbar">
+            <a href="index.html">Início</a>
+            <a href="dicas.html">Vem maratonar!</a>
+            <a href="vemcomigo.html">Junte-se ao cube!</a>
+            <a href="contatos.html">Minhas redes</a>
+            <a href="listagem.html" onclick="mostrarDados()">Listagem</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">☰</a>
+            </div>
+        </header>
+        <button onclick="mostrarDados()" type="button" value="carregar" class="vci">Carregar</button>
+            <table id="crudTable" >
+                <thead>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Gênero</th>
+                    <th>Mídia</th>
+                </thead>
+                <tbody></tbody>
+            </table>         
+            <script src="script.js"></script>
+    </body>
+</html>
